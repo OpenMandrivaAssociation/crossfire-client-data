@@ -8,7 +8,6 @@ Summary:	Data files for Crossfire game clients
 Group:		Games/Adventure
 License:	GPL
 URL:		http://crossfire.real-time.com/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildArch:	noarch
 
 Source0:	http://prdownloads.sourceforge.net/crossfire/crossfire-client-sounds-%{version}.tar.bz2
