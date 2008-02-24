@@ -1,4 +1,4 @@
-%define	version	1.10.0
+%define	version	1.11.0
 %define	release %mkrel 1
 
 Name:		crossfire-client-data
@@ -33,7 +33,7 @@ rm -rf %{buildroot}
 # extract cache images to buildroot
 mkdir -p %{buildroot}%{_gamesdatadir}/crossfire-client/
 bzip2 -dc %{SOURCE0} | tar -x -C %{buildroot}%{_gamesdatadir}/crossfire-client/
-gzip -dc %{SOURCE1} | tar -x -C %{buildroot}%{_gamesdatadir}/crossfire-client/
+bzip2 -dc %{SOURCE1} | tar -x -C %{buildroot}%{_gamesdatadir}/crossfire-client/
 find %{buildroot}%{_gamesdatadir}/crossfire-client -type f -print0 | xargs -r -0 chmod 0644
 
 %clean
