@@ -1,3 +1,5 @@
 sources:
-  "crossfire-client-images-1.50.0.tar.gz:"	d46eea63552155774248ab1e3b8b723ab2deccbc
-  "crossfire-client-sounds-1.50.0.tar.gz:"	62fca858096380b116b55b554187ef7fd0f04bd6
+  "crossfire-client-images-1.50.0.tar.gz": d46eea63552155774248ab1e3b8b723ab2deccbc
+  "crossfire-client-sounds-1.50.0.tar.gz": 62fca858096380b116b55b554187ef7fd0f04bd6
+  crossfire-client-images-1.70.0.tar.gz: d7bda81c6b4283719b61725ab0afc656dddc59e7
+  crossfire-client-sounds-1.70.0.tar.gz: 9f1a1b88afba31c62f8ec62d1c68078307fa9c81
